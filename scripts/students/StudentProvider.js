@@ -21,3 +21,13 @@ export const addStudent = (student) => {
     },
   }).then(getStudents);
 };
+
+export const updateStudent = (student) => {
+  return fetch(`http://localhost:8088/students/${student.id}`, {
+    method: "PUT",
+    body: JSON.stringify(student),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  }).then(getStudents);
+};

@@ -2,9 +2,9 @@
   "students": [
     {
       "id": 1,
-      "firstName": "Rick",
-      "lastName": "Sanchez",
-      "cohort": 43
+      "firstName": "Pickle",
+      "lastName": "Rick",
+      "cohort": 50
     },
     {
       "id": 2,
@@ -14,9 +14,21 @@
     },
     {
       "id": 3,
-      "firstName": "Summer",
+      "firstName": "Spring",
       "lastName": "Smith",
       "cohort": 43
+    },
+    {
+      "firstName": "Beth",
+      "lastName": "Smith",
+      "cohort": 44,
+      "id": 4
+    },
+    {
+      "firstName": "Jerry",
+      "lastName": "Smith",
+      "cohort": 44,
+      "id": 5
     }
   ]
 }
